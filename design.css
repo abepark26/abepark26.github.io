@@ -87,6 +87,12 @@ article ul li {
     display: inline-block;
 }
 
+.single-line::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 /* footer */
 footer {
     margin: 3rem 0 4rem 0;
@@ -101,6 +107,12 @@ footer i {
     article p {
         font-size: 0.8rem;
     }
+
+
+    article a {
+        font-size: 0.7rem;
+    }
+
     .article-title {
         font-size: 1rem;
     }
