@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="design.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <script src="./load-pages.js"></script> -->
+    <script src="./load-about.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
@@ -23,38 +23,17 @@
 
     <nav class="nav-container wrap">
         <ul>
-            <li><a href="/abepark26.github.io/index.html">About Me</a></li>
-            <li><a href="/abepark26.github.io/project.html">Projects</a></li>
+            <li onclick="load_about()">About Me</li>
+            <li onclick="load_project()">Projects</li>
         </ul>
     </nav>
 
     <article id="about-container"></article>
-    <article id="project-container">
-        <!-- Obj -->
-        <div class="wrap">
-            <h1 class="article-title">Front-End</h1>
-            <div class="single-line">
-                <p><b>More Than Words Mobile Application</b></p>
-                <p style="float: right;">Medford, MA</p>
-            </div>
+    <article id="project-container"></article>
 
-            <div class="single-line" style="font-style: italic;">
-                <p>Front-End Developer || Designer</p>
-                <p style="float: right;">October ’20 – Present</p>
-            </div>
-
-            <p>- Designed the entire application roadmap including login page, 
-                pod selection page, outcomes page using Figma.
-            </p>
-            <p>- Implemented progress bar animation using React Native.</p>
-
-        </div>
-        
-    </article>
+    <footer>
+        <a href="https://www.linkedin.com/in/abe-yangsun-park-74b6581a1/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+    </footer>
 </body>
-
-<script>
-
-</script>
 
 </html>
